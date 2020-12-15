@@ -1,5 +1,5 @@
 # program description
-# User –defined functions
+# User – defined functions
 
 # print author information and date-time when executed
 import lp04_2_utilityfunc as lp04
