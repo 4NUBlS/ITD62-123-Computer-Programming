@@ -1,4 +1,3 @@
-# function definition
 def calculate_circle_area(radius):
     PI = 3.14
     area = PI * (radius * radius)
