@@ -1,0 +1,17 @@
+flight_landing_list = ["SL789", "FD3187"]
+print(flight_landing_list)
+flight_landing_list.append(input("Enter flight no: "))
+print(flight_landing_list)
+flight_landing_list.pop(0)
+print(flight_landing_list)
+print(flight_landing_list[1])
+print(flight_landing_list[0])
+flight_landing_list[0] = "FD3188"
+print(flight_landing_list)
+flight_landing_list.append(input("Enter flight no: "))
+flight_landing_list.append(input("Enter flight no: "))
+print(flight_landing_list)
+flight_landing_list.remove(input("Enter flight No. to remove: "))
+print(flight_landing_list)
+flight_landing_list.clear()
+print(flight_landing_list)
