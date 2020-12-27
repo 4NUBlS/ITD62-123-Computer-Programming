@@ -41,8 +41,7 @@ def process_coin():
     while True:
         insert_coin = int(input("Please insert banknote/coin: "))
         if insert_coin >= fare:
-            print("Change {0} THB\nGet your ticket, Thanks you".format(
-                insert_coin - fare))
+            print("Change {0} THB\nGet your ticket, Thanks you".format(insert_coin - fare))
             break
         elif insert_coin < fare:
             print("Require more cash....")
