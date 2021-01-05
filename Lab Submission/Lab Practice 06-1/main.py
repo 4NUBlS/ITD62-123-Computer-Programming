@@ -66,10 +66,10 @@ for x, y in locations.items():
 persondict.update({"location": int(input("Enter location number: "))})
 if persondict.get("location") == 0:
     persondict.update({"risk": False})
+elif persondict.get("body_temp") > 37.5 and str(persondict.get("location")) in locations.keys():
+    persondict.update({"covid": True})
 elif str(persondict.get("location")) in locations.keys():
     persondict.update({"risk": True})
-if persondict.get("body_temp") > 37.5 and str(persondict.get("location")) in locations.keys():
-    persondict.update({"covid": True})
-elif persondict.get("body_temp") > 37.5:
+if persondict.get("body_temp") > 37.5:
     persondict.update({"risk": True})
 print("JSON={0}".format(json.dumps(persondict)))
