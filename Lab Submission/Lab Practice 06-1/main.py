@@ -3,6 +3,7 @@ import json
 
 now = datetime.now()
 dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
+
 locations = {
     "1": "กรุงเทพมหานคร",
     "2": "จังหวัดกาญจนบุรี",
